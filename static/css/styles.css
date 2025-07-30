@@ -70,3 +70,11 @@ input {
 
 }
 
+
+button {
+  width: auto;
+  padding: 20px 12px;
+  display: flex;
+  margin-left: auto;
+  
+}
