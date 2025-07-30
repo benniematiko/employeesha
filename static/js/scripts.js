@@ -51,3 +51,13 @@ inputs.basic.addEventListener("input", () => {
   inputs.netSalary.value = net.toFixed(2);
 });
 
+const clearBtn = document.getElementById("clearBtn");
+
+clearBtn.addEventListener("click", () => {
+  inputs.basic.value = "";
+  inputs.houseLevy.value = "";
+  inputs.shaLevy.value = "";
+  inputs.netSalary.value = "";
+});
+
+
