@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #c9cad1;
+}
+
+.container {
+
+  width: 86%;
+  margin: 0 auto;
+
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  padding: 20px 0 12px 0;
+}
+
+
+.title h1 {
+  letter-spacing: 0.3rem;
+  line-height: 33px;
+}
+
+.row-item {
+  width: 100%;
+  margin: 15px 0;
+
+}
+
+
+.label1 {
+  display: inline-block;
+  width: 22%; /* Fixed width */
+  min-width: 22%;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: 30%; /* Width based on font size */
+  /* padding: 8px 4px 8px 4px; */
+  min-width: 28%;
+
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.styled-input:focus {
+  border-color: #007BFF;         /* Change border on focus */
+  box-shadow: 0 0 5px #007BFF55; /* Optional glow effect */
+  background-color: #f0f8ff;
+  transform: scale(1.02);
+}
+
+
+.styled-input-readonly {
+  border-color: #007BFF;         /* Change border on focus */
+  box-shadow: 0 0 5px #007BFF55; /* Optional glow effect */
+  /* background-color: #f0f8ff;
+  transform: scale(1.02); */
+
+}
+

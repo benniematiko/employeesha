@@ -1,0 +1,62 @@
+{% extends 'base.html' %} 
+
+
+  {% block title %} Home - Employee SHA App{% endblock %} 
+  
+  {% block content %}
+
+   
+   <div class="container">
+
+    <form action="">  
+    
+      <div class="title">
+        <h1>Employee's SHA Computation App</h1>
+      </div>
+
+      <div class="row-item">
+        <label class="label1" for="">Employee's Names :  </label>
+        
+        <input type="text" class="styled-input" placeholder="Enter employee's full names">
+      </div>
+
+      <div class="row-item">
+        <label class="label1" for="">Employee's Department: </label>
+        
+        <input type="text" class="styled-input" placeholder="Enter employee's department">
+      
+      </div>
+
+      <div class="row-item">
+        <label class="label1" for="">Employee's Basic Salary ( Kshs ): </label>
+        <input type="text" id="num1" name="num1" class="styled-input" placeholder="Enter employees basic salary">
+      
+      </div>
+      <div class="row-item">
+        <label class="label1" for="">House Levy ( Kshs )  [ 0.26% ]: </label>
+        <input type="text" id="num2" name="num2" class="styled-input-readonly" placeholder="House Levy" readonly>
+      
+      
+      </div>
+      <div class="row-item">
+        <label class="label1" for="">SHA deductions ( Kshs ) [ 0.6% ]: </label>
+        <input type="text" id="num3" name="num3" class="styled-input-readonly" placeholder="SHA deductions" readonly>
+    
+      </div>
+      <div class="row-item">
+        <label class="label1" for="">Net Salary ( Kshs ): </label>
+        <input type="text" id="num4" name="num4" class="styled-input-readonly" placeholder="Net salary" readonly>
+      
+      </div>
+
+      <div class="row-item">
+        <div class="content">
+         <span><input type="Submit" value="Clear"></span> <span><input type="Submit" value="Save"></span> 
+        </div>
+      </div>
+
+       </form>
+   </div>
+  
+
+  {% endblock %}
